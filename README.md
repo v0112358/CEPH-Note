@@ -5,7 +5,6 @@ Learning CEPH
 - https://www.sebastien-han.fr/blog/2016/03/25/your-first-bluestore-osd-with-ceph-ansible/
 - http://www.sebastien-han.fr/blog/2016/03/21/ceph-a-new-store-is-coming/
 - http://www.slideshare.net/sageweil1/bluestore-a-new-faster-storage-backend-for-ceph?qid=e8b6abd4-6569-40cf-b172-330d078a0997&v=&b=&from_search=1
-- https://live.vinahost.vn/img/76/building_high_performance_high_capacity_costefficient_all_flash_cloud_storage_system_with_ceph.pdf
 - http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/
 
 ## How to install CEPH ?

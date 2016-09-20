@@ -1,6 +1,26 @@
 # CEPH-Note
 Learning CEPH
 
+## Documents
+- https://www.sebastien-han.fr/blog/2016/03/25/your-first-bluestore-osd-with-ceph-ansible/
+- http://www.sebastien-han.fr/blog/2016/03/21/ceph-a-new-store-is-coming/
+- http://www.slideshare.net/sageweil1/bluestore-a-new-faster-storage-backend-for-ceph?qid=e8b6abd4-6569-40cf-b172-330d078a0997&v=&b=&from_search=1
+- https://live.vinahost.vn/img/76/building_high_performance_high_capacity_costefficient_all_flash_cloud_storage_system_with_ceph.pdf
+- http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/
+
+## How to install CEPH ?
+- https://github.com/ceph/ceph-deploy
+- https://github.com/ceph/ceph-ansible
+
+## Monitor tools
+- Calamari: https://github.com/ceph/calamari/
+- Inscope: https://github.com/inkscope/inkscopek
+- Zabbix: https://github.com/thelan/ceph-zabbix/blob/master/zabbix_templates
+- Collectd + prometheus + grafana
+- Ceph-dash: https://github.com/Crapworks/ceph-dash
+- Ceph-web: https://github.com/tobegit3hub/ceph-web
+- Krakendash: https://github.com/tobegit3hub/ceph-web
+
 ## CEPH FileStore
 ```javascript
 # ls -l /var/lib/ceph/osd/ceph-12/

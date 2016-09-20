@@ -1,7 +1,8 @@
 # CEPH-Note
 Learning CEPH
 
-############## CEPH FileStore ###################################
+## CEPH FileStore
+```javascript
 # ls -l /var/lib/ceph/osd/ceph-12/
 total 80
 -rw-r--r--   1 root root   481 Jul 17 07:20 activate.monmap
@@ -22,8 +23,10 @@ lrwxrwxrwx   1 ceph ceph    58 Jul 17 07:20 journal -> /dev/disk/by-partuuid/a26
 
 # ls -R /var/lib/ceph/osd/ceph-12/ | wc -l
 4076
+```
 
-############# CEPH BuleStore ###################################
+## CEPH BuleStore
+```javascript
 # ls -l /var/lib/ceph/osd/ceph-2/
 total 52
 -rw-r--r-- 1 root root 481 Sep 17 11:56 activate.monmap
@@ -44,3 +47,4 @@ lrwxrwxrwx 1 ceph ceph  58 Sep 17 11:56 block -> /dev/disk/by-partuuid/874a367f-
 
 # ls -R /var/lib/ceph/osd/ceph-2/ | wc -l
 16
+```
